@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: monospace;
+	color: #000;
+}
+
+a {
+	color: #000;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+p:not(:last-child) {
+	margin-bottom: 20px;
+}
