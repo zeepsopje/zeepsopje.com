@@ -17,7 +17,7 @@
 
 <style>
 	.info {
-		width: clamp(200px, 50%, 100%);
+		width: clamp(200px, 40%, 100%);
 	}
 
 	.bg {
@@ -34,6 +34,6 @@
 	}
 
 	:global(.bg canvas) {
-		transform: rotate3d(3, -3, -2, -45deg);
+		transform: rotate3d(20, -20, 1, 40deg);
 	}
 </style>

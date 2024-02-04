@@ -36,6 +36,8 @@
 		padding: 0 2rem;
 	}
 
-	main {
+	nav {
+		display: flex;
+		gap: 2em;
 	}
 </style>

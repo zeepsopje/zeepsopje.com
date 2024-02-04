@@ -6,7 +6,7 @@
 	export let loaded = false;
 
 	let canvas;
-	let cellSize = 15;
+	let cellSize = 25;
 	let grid = [];
 
 	onMount(() => {
@@ -27,6 +27,8 @@
 	});
 
 	function drawCircle(ctx, cellX, cellY, size) {
+		let alpha = parseFloat((size / 100) * 1).toFixed(2);
+		ctx.fillStyle = 'rgb(0, 0, 0,' + alpha + ')';
 		ctx.beginPath();
 		ctx.arc(
 			cellX * cellSize + cellSize / 2,
