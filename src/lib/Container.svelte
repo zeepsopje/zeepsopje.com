@@ -9,10 +9,4 @@
 		margin: 0 auto;
 		padding: 0 30px;
 	}
-
-	@media (max-width: 500px) {
-		.container {
-			padding: 0;
-		}
-	}
 </style>
