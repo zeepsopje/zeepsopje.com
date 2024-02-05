@@ -1,13 +1,13 @@
 @font-face {
-	font-family: 'Open Sans';
+	font-family: 'Work Sans';
 	font-weight: normal;
-	src: url('/fonts/OpenSans-Regular.ttf');
+	src: url('/fonts/WorkSans-Regular.ttf');
 }
 
 @font-face {
-	font-family: 'Open Sans';
+	font-family: 'Work Sans';
 	font-weight: bold;
-	src: url('/fonts/OpenSans-Bold.ttf');
+	src: url('/fonts/WorkSans-Medium.ttf');
 }
 
 * {
@@ -16,13 +16,15 @@
 }
 
 body {
-	font-family: 'Open Sans', monospace;
+	font-family: 'Work Sans', monospace;
 	color: #000;
 	font-size: 16px;
+	color: rgba(0, 0, 0, 0.7);
 }
 
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: .5em;
+	color: rgba(0, 0, 0, .9);
 }
 
 h2 {
