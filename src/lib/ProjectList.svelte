@@ -4,8 +4,8 @@
 </script>
 
 <div class="projects">
-	{#each projects as { name, desc }, i}
-		<Project {name} {desc} />
+	{#each projects as project, i}
+		<Project {...project} />
 		{#if i < projects.length-1}
 			<div class="divider" />
 		{/if}

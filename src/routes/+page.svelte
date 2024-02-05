@@ -14,7 +14,7 @@
 		<h2>Stefan Huynh</h2>
 		<h3>Fullstack developer, programming hobbyist</h3>
 		<p>
-			Dolor sequi vero officia deserunt laborum A aliquam cumque ut maiores voluptate. Iste eveniet nesciunt fugit nihil nobis, mollitia exercitationem Sit repudiandae doloribus nisi maiores consectetur? Consequuntur adipisci officia iure?
+			Sweet and caring. Expert hair brusher. Professional masseur. Great motivational speaker. Mastermovie impersonator.                Also takes great care of his pussies.  
 		</p>
 		<a class="icon" href="https://github.com/zeepsopje" target="_blank">
 			<Icon.Github color="#fff" />
