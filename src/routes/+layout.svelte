@@ -1,23 +1,23 @@
 <script>
 	import '../_global.css';
-	import * as Icon from 'svelticon';
+	import Container from '$lib/Container.svelte';
 </script>
 
-<header>
-	<div class="logo">
-		<h2>zeepsopje</h2>
-		<Icon.Github size={24} />
-	</div>
-	<nav>
-		<a href="/">Home</a>
-		<a href="/">Projects</a>
-		<a href="/">About</a>
-	</nav>
-</header>
-
-<main>
-	<slot />
-</main>
+<Container>
+	<header>
+		<div class="logo">
+			<h2>zeepsopje</h2>
+		</div>
+		<nav>
+			<a href="/">Home</a>
+			<a href="#about">About</a>
+			<a href="#projects">Projects</a>
+		</nav>
+	</header>
+	<main>
+		<slot />
+	</main>
+</Container>
 
 <style>
 	header {
@@ -25,6 +25,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		margin-bottom: 50px;
 	}
 
 	.logo {
@@ -32,8 +33,9 @@
 		gap: 1.5em;
 	}
 
-	header, main {
-		padding: 0 2rem;
+	.logo h2 {
+		font-size: 1rem;
+		margin: 0;
 	}
 
 	nav {

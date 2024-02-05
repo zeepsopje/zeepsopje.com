@@ -1,22 +1,48 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	src: url('/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	src: url('/fonts/OpenSans-Bold.ttf');
+}
+
 * {
 	margin: 0;
 	box-sizing: border-box;
 }
 
 body {
-	font-family: monospace;
+	font-family: 'Open Sans', monospace;
 	color: #000;
-	text-transform: lowercase;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5em;
+}
+
+h2 {
+	font-size: 35px;
 }
 
 a {
 	color: #000;
 }
 
+a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
 p {
-	line-height: 1.5em;
+	line-height: 1.7em;
+	margin: 20px 0;
 }
 
 p:not(:last-child) {
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }

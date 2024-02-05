@@ -6,7 +6,7 @@
 	export let loaded = false;
 
 	let canvas;
-	let cellSize = 25;
+	let cellSize = 7;
 	let grid = [];
 
 	onMount(() => {
