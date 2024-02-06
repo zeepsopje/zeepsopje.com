@@ -5,7 +5,7 @@ export default [
 	},
 	{
 		name: 'Docs.rs viewer/proxy api',
-		desc: 'Since I mainly work from the shell and use the Rust docs (docs.rs) a lot, I wanted to create a CLI that allows me to browse crate documentations by scraping the HTML of the docs. It also exposes it\'s own REST API, acting as a proxy to allow for easy interfacing to other applications.',
+		desc: 'Since I mainly work from the shell and use the Rust docs (docs.rs) a lot, I wanted to create a CLI that allows me to browse crate documentations by scraping the HTML of the docs. It also exposes its own REST API, acting as a proxy to allow for easy interfacing to other applications.',
 		url: 'https://github.com/zeepsopje/crawl',
 		wip: true,
 	},
