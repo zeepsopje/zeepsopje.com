@@ -13,6 +13,10 @@
 		padding: 0 50px;
 	}
 
+	.center :global(p) {
+		/* text-align: left !important; */
+	}
+
 	@media (max-width: 500px) {
 		.center {
 			padding: 0;

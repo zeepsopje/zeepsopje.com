@@ -10,15 +10,26 @@
 </div>
 
 <div class="sections">
-	<Section name="about" center>
+	<Section center>
 		<h2>Stefan Huynh</h2>
-		<h3>Fullstack developer, programming hobbyist</h3>
+		<h3>Full stack developer and programming hobbyist</h3>
 		<p>
-			Sweet and caring. Expert hair brusher. Professional masseur. Great motivational speaker. Mastermovie impersonator.                Also takes great care of his pussies.  
 		</p>
 		<a class="icon" href="https://github.com/zeepsopje" target="_blank">
 			<Icon.Github color="#fff" />
 		</a>
+	</Section>
+	<Section name="about">
+		<h2>About me</h2>
+		<p>
+			For me, programming is more of a passion than a career. It's important for me to be able to keep doing what I love, which is creating stuff and executing ideas.
+		</p>
+		<h4>Technologies that I use the most</h4>
+		<ul>
+			<li>JavaScript</li>
+			<li>NodeJS</li>
+			<li>Rust</li>
+		</ul>
 	</Section>
 	<Section name="projects">
 		<h2>Projects</h2>
@@ -50,6 +61,7 @@
 		display: inline-block;
 		position: relative;
 		transition: all .1s ease-in-out;
+		margin: 40px 0 0;
 	}
 
 	.icon:hover {
