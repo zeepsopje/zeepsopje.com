@@ -26,7 +26,7 @@
 			Being able to write software makes me feel like I have an endless ocean of possibilities in my hands. Have an idea? Just execute it. It's like being an architect who goes insane with his designs. There's no barrier that tells me I can't do it, and if there were, I would probably climb over said barrier.
 		</p>
 		<p>
-			I'm keen on learning, which is why I prefer to learn things the hard way. I want to know how things work under the hood If I'm going to use it extensively. I'm also a firm believer of having passion and care for your craft, so quality and scalability is key for me. I regularly update my knowledge by reading. Be it online or with physical books. I'm currently reading <a href="https://man7.org/tlpi/">The Linux Programming Interface</a> by Michael Kerrisk, which I highly recommend.
+			I'm keen on learning, which is why I prefer to learn things the hard way. I want to know how things work under the hood If I'm going to use it extensively. I'm also a firm believer of having passion and care for your craft, so quality and scalability is key for me. I regularly update my knowledge by reading, be it online or with physical books. I'm currently reading <a href="https://man7.org/tlpi/">The Linux Programming Interface</a> by Michael Kerrisk, which I highly recommend.
 		</p>
 	</Section>
 	<Section>
