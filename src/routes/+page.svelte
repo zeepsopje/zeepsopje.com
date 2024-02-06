@@ -12,9 +12,7 @@
 <div class="sections">
 	<Section center>
 		<h2>Stefan Huynh</h2>
-		<h3>Full stack developer and programming hobbyist</h3>
-		<p>
-		</p>
+		<h3>Just a curious programmer.</h3>
 		<a class="icon" href="https://github.com/zeepsopje" target="_blank">
 			<Icon.Github color="#fff" />
 		</a>
@@ -22,20 +20,35 @@
 	<Section name="about">
 		<h2>About me</h2>
 		<p>
-			For me, programming is more of a passion than a career. It's important for me to be able to keep doing what I love, which is creating stuff and executing ideas.
+			Hello! My name is Stefan. I'm from the Netherlands. There are lots of things that spark my interest, but the biggest of those would be software. As of now, I deploy this passion as a hobby rather than a profession.
 		</p>
-		<h4>Technologies that I use the most</h4>
-		<ul>
-			<li>JavaScript</li>
-			<li>NodeJS</li>
-			<li>Rust</li>
-		</ul>
+		<p>
+			Being able to write software makes me feel like I have an endless ocean of possibilities in my hands. Have an idea? Just execute it. It's like being an architect who goes insane with his designs. There's no barrier that tells me I can't do it, and if there were, I would probably climb over said barrier.
+		</p>
+		<p>
+			I'm keen on learning, which is why I prefer to learn things the hard way. I want to know how things work under the hood If I'm going to use it extensively. I'm also a firm believer of having passion and care for your craft, so quality and scalability is key for me. I regularly update my knowledge by reading. Be it online or with physical books. I'm currently reading <a href="https://man7.org/tlpi/">The Linux Programming Interface</a> by Michael Kerrisk, which I highly recommend.
+		</p>
+	</Section>
+	<Section>
+		<h2>Down to the specifics</h2>
+		<p>
+			I'm best described as a full stack developer. Below is a specific overview of my skillset.
+		</p>
+		<h3>Frontend</h3>
+		<p>
+			I'm experienced in building robust and stable frontend UIs with user experience in mind. Using SvelteKit and NextJS as my go to web application frameworks along with Svelte or React, I've become very confident in building components in a scalable manner. I don't have trouble translating design to web, right on the pixel.
+		</p>
+		<h3>Backend</h3>
+		<p>
+			I can write <em>scalable</em> backends, mostly in NodeJs but also in Rust. I know how to work with databases (mostly relational databases) and can write queries for them. Depending on the project, I'd use raw SQL, a query builder or and ORM. I use migrations to keep track of changes in the database. Finally I know how to design, build and expose REST APIs as well as consume them. I'm also no stranger to implementing an authorization server, although I haven't done it that often.
+		</p>
+		<h3>Languages</h3>
+		<p>
+			I'm most familiar with JavaScript, but Rust is my most favourite language to use. Other than those, I'm also familiar with Python, PHP and C.
+		</p>
 	</Section>
 	<Section name="projects">
 		<h2>Projects</h2>
-		<p>
-			Dolor sequi vero officia deserunt laborum A aliquam cumque ut maiores voluptate. Iste eveniet nesciunt fugit nihil nobis, mollitia exercitationem Sit repudiandae doloribus nisi maiores consectetur? Consequuntur adipisci officia iure?
-		</p>
 		<ProjectList />
 	</Section>
 </div>

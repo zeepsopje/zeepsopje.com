@@ -45,6 +45,6 @@ p {
 	margin: 20px 0;
 }
 
-p:not(:last-child) {
+p:not(:last-child), ul:not(:last-child) {
 	margin-bottom: 20px;
 }

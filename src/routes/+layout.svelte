@@ -9,7 +9,6 @@
 			<h2>zeepsopje</h2>
 		</div>
 		<nav>
-			<a href="/">Home</a>
 			<a href="#about">About</a>
 			<a href="#projects">Projects</a>
 		</nav>
