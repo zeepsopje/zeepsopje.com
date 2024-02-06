@@ -36,7 +36,7 @@
 		</p>
 		<h3>Frontend</h3>
 		<p>
-			I'm experienced in building robust and stable frontend UIs with user experience in mind. Using SvelteKit and NextJS as my go to web application frameworks along with Svelte or React, I've become very confident in building components in a scalable manner. I don't have trouble translating design to web, right on the pixel.
+			I'm experienced in building robust and stable frontend UIs with user experience in mind. Using SvelteKit and NextJS as my go to web application frameworks along with Svelte or React, I've become very confident in building component based Web Apps. I don't have trouble translating design to web, right on the pixel.
 		</p>
 		<h3>Backend</h3>
 		<p>
