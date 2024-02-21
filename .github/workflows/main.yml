@@ -9,8 +9,8 @@ jobs:
           uses: appleboy/ssh-action@master
           with:
             host: ${{ secrets.SERVER_IP }}
-            username: ${{ secret.USERNAME }}
-            key: ${{ secret.PRIVATE_KEY }}
+            username: ${{ secrets.USERNAME }}
+            key: ${{ secrets.PRIVATE_KEY }}
             script_stop: true
             command_timeout: 200m
             script: |
