@@ -1,6 +1,7 @@
 FROM node:21-alpine3.18 as builder
 WORKDIR /home/build
 COPY . .
+RUN npm ci
 RUN npm run build
 
 FROM node:21-alpine3.18 as app
